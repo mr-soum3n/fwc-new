@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Checkout</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Checkout</h2>
+
+<p>
+Currently we are not giving COD option.
+Our team will contact you to collect payment after order confirmation.
+</p>
+
+<form id="orderForm">
+
+<input id="name" placeholder="Name" required>
+<input id="whatsapp" placeholder="WhatsApp Number" required>
+<input id="contact" placeholder="Contact Number" required>
+<input id="email" placeholder="Email (optional)">
+
+<h3>Address</h3>
+
+<input id="address1" placeholder="Address line 1" required>
+<input id="address2" placeholder="Address line 2">
+<input id="city" placeholder="City" required>
+
+<select id="state">
+<option>West Bengal</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Maharashtra</option>
+<option>Delhi</option>
+<option>Karnataka</option>
+<option>Tamil Nadu</option>
+<option>Uttar Pradesh</option>
+<option>Punjab</option>
+<option>Gujarat</option>
+</select>
+
+<input id="pincode" placeholder="Pin code">
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+<div id="popup" class="popup">
+<div class="popupBox">
+<h2>Thank you for choosing us.</h2>
+<p>
+Our team will contact you very soon for payment,
+then we will process your order within 24 hours.
+</p>
+<button onclick="closePopup()">OK</button>
+</div>
+</div>
+
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

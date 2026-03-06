@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FWC Sticker Shop</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+<h1>FWC Sticker Shop</h1>
+<p class="notice">
+Currently we are not providing COD option. Our team will contact you to collect payment after order confirmation.
+</p>
+<input id="searchBox" placeholder="Search stickers">
+</header>
+
+<section id="products" class="products"></section>
+
+<div class="cart">
+<h3>Cart</h3>
+<div id="cartItems"></div>
+<p id="shippingMessage"></p>
+<input id="couponInput" placeholder="Coupon code">
+<button onclick="applyCoupon()">Apply</button>
+<h4>Total ₹<span id="cartTotal">0</span></h4>
+<button onclick="goCheckout()">Checkout</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/store.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+
+</body>
+</html>

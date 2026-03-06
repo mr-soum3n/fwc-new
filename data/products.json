@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Ride Hard Sticker",
+    "category": "automotive",
+    "image": "https://via.placeholder.com/200",
+    "standard_price": 29,
+    "premium_price": 49
+  },
+  {
+    "id": 2,
+    "name": "Anime Rider Sticker",
+    "category": "anime",
+    "image": "https://via.placeholder.com/200",
+    "standard_price": 39,
+    "premium_price": 59
+  }
+]
